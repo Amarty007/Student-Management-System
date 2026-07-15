@@ -1,0 +1,44 @@
+#name
+students_name= input("Enter your name:")
+print("student's name:", students_name)
+
+OUTPUT- student's name: Amartya
+
+mark1=int(input('enter marks'))
+mark2=int(input('enter marks'))
+mark3=int(input('enter marks'))
+
+print("subject1:", mark1)
+print("subject2:", mark2)
+print("subject3:", mark3)
+
+OUTPUT- subject1: 30
+subject2: 40
+subject3: 50
+
+########
+total_marks=mark1+mark2+mark3
+print(total_marks)
+average_marks=total_marks//3
+print(average_marks)
+highest_marks=max(mark1,mark2,mark3)
+print("highest marks:", highest_marks)
+lowest_marks=min(mark1,mark2,mark3)
+print("lowest marks:", lowest_marks)
+bool1=mark1>mark2
+print('is Subject1 marks greater than Subject2', bool1)
+bool2=mark3==mark1
+print('is Subject3 marks equal to Subject1 marks,')
+print('Subject1 greater than 40?',mark1>=40)
+print('Subject2 greater than 40?',mark2>=40)
+print('Subject3 greater than 40?',mark3>=40)
+
+OUTPUT---120
+40
+highest marks: 50
+lowest marks: 30
+is Subject1 marks greater than Subject2 False
+is Subject3 marks equal to Subject1 marks,
+Subject1 greater than 40? False
+Subject2 greater than 40? True
+Subject3 greater than 40? True
